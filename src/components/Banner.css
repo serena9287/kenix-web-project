@@ -1,0 +1,33 @@
+
+.header-bg{
+    background-image: url('../background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 350px;
+}
+
+.heading-text{
+    background-color: transparent;
+    width: 680px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.heading{
+    display: block;
+    width: 370px;
+    background-color: transparent;
+    font-size: 3rem;
+    text-shadow: -2px -2px 0 #333, 2px -2px 0 #333, -2px 2px 0 #333, 2px 2px 0 #333;
+}
+
+.subheading{
+    color: #00F0FF;
+    font-size: 2.5rem;
+    background-color: transparent;
+  }
+  
+
