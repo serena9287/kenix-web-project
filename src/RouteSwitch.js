@@ -10,10 +10,10 @@ const RouteSwitch = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/about/" element={<About />} />
-        <Route path="/award/" element={<Award />} />
-        <Route path="/lessons/" element={<Lessons />} />
-        <Route path="/contact/" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/award" element={<Award />} />
+        <Route path="/lessons" element={<Lessons />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
