@@ -1,20 +1,11 @@
 import React from "react";
 import "./../index.css";
-import { Button } from "reactstrap";
+import { Button, NavLink } from "reactstrap";
 
 function ContactForm() {
   return (
     <div className='contact-page'>
-      <form
-        action='https://formsubmit.co/wkwo211@mywhitecliffe.com'
-        method='POST'
-      >
-        <input
-          type='hidden'
-          name='_next'
-          value='https://kenix-studio.netlify.app/thanks'
-        ></input>
-        <input type='hidden' name='_captcha' value='false'></input>
+      <form>
         <label htmlFor='fullname'>Full Name: </label>
         <p>
           <input
@@ -44,8 +35,8 @@ function ContactForm() {
             placeholder='Enter your message here...'
           ></textarea>
         </p>
-        <Button type='submit' value='Submit' color='info'>
-          Submit
+        <Button type='button' value='Submit' color='info'>
+          <NavLink href='/thanks/'>Submit</NavLink>
         </Button>
       </form>
     </div>
