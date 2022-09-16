@@ -15,7 +15,7 @@ function ContactForm() {
           value='https://kenix-studio.netlify.app/thanks'
         ></input>
         <input type='hidden' name='_captcha' value='false'></input>
-        <label for='fullname'>Full Name: </label>
+        <label htmlFor='fullname'>Full Name: </label>
         <p>
           <input
             type='text'
@@ -25,7 +25,7 @@ function ContactForm() {
             required
           ></input>
         </p>
-        <label for='email'>Email: </label>
+        <label htmlFor='email'>Email: </label>
         <p>
           <input
             type='email'
@@ -35,7 +35,7 @@ function ContactForm() {
             required
           ></input>
         </p>
-        <label for='message'>Message: </label>
+        <label htmlFor='message'>Message: </label>
         <p>
           <textarea
             id='message'

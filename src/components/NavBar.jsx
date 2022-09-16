@@ -16,7 +16,7 @@ function Example(args) {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar {...args} color='dark' dark='true' expand='md' container='md'>
+    <Navbar {...args} color='dark' dark expand='md' container='md'>
       <NavbarBrand href='/'>KC</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
