@@ -11,7 +11,6 @@ function Award() {
   if (error) {
     return <div>An error occured: {error.message}</div>;
   }
-  console.log(songs.map((song) => song.attributes.award));
 
   const content = songs.map((song) => (
     <Song
