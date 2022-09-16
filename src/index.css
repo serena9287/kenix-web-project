@@ -54,6 +54,10 @@ input, textarea{
   height: 315px;
 }
 
+.full-page{
+  height: 100vh;
+}
+
 @media only screen and (max-width: 600px) {
   .song{
     width: 280px;

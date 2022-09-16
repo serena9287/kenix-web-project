@@ -12,7 +12,7 @@ function ContactForm() {
         <input
           type='hidden'
           name='_next'
-          value='https://kenix-studio.netlify.app/'
+          value='https://kenix-studio.netlify.app/thanks'
         ></input>
         <input type='hidden' name='_captcha' value='false'></input>
         <label for='fullname'>Full Name: </label>

@@ -4,6 +4,7 @@ import About from "./About";
 import Award from "./Award";
 import Lessons from "./Lessons";
 import Contact from "./Contact";
+import Thanks from "./Thanks";
 
 const RouteSwitch = () => {
   return (
@@ -14,6 +15,7 @@ const RouteSwitch = () => {
         <Route path="/award" element={<Award />} />
         <Route path="/lessons" element={<Lessons />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/thanks" element={<Thanks />} />
       </Routes>
     </BrowserRouter>
   );
