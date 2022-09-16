@@ -9,6 +9,12 @@ function ContactForm() {
         action='https://formsubmit.co/wkwo211@mywhitecliffe.com'
         method='POST'
       >
+        <input
+          type='hidden'
+          name='_next'
+          value='https://https://kenix-studio.netlify.app/'
+        ></input>
+        <input type='hidden' name='_captcha' value='false'></input>
         <label for='fullname'>Full Name: </label>
         <p>
           <input
